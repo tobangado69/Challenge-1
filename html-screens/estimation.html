@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Estimation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <div class="max-w-sm mx-auto font-sans">
+
+        <!-- Header -->
+        <header class="flex items-center justify-between p-4 border-b">
+            <button class="text-gray-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+            <h1 class="text-lg font-bold">Hasil Estimasi Harga</h1>
+            <button class="text-blue-600 font-semibold">Simpan</button>
+        </header>
+
+        <!-- Product Info -->
+        <div class="p-4 flex items-center border-b">
+            <div class="w-20 h-20 bg-gray-200 rounded-lg mr-4"></div>
+            <div>
+                <h2 class="font-bold text-lg">Kemeja Blaster</h2>
+                <p class="text-gray-500">Pakaian Pria</p>
+            </div>
+        </div>
+
+        <!-- Price Analysis -->
+        <div class="p-4 border-b">
+            <div class="flex justify-between text-center">
+                <div>
+                    <p class="text-sm text-gray-500">Harga Rata-rata</p>
+                    <p class="font-bold text-lg">Rp. 89.000</p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-500">Harga Tertinggi</p>
+                    <p class="font-bold text-lg">Rp. 110.000</p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-500">Harga Terendah</p>
+                    <p class="font-bold text-lg">Rp. 65.000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommended Price -->
+        <div class="p-4 border-b text-center bg-gray-50">
+            <p class="text-sm text-gray-500">Rekomendasi Harga Jual</p>
+            <div class="flex items-center justify-center mt-2">
+                <p class="text-2xl font-bold text-blue-600">Rp. 95.000</p>
+                <button class="ml-2 text-gray-500">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Competitor Analysis -->
+        <div class="p-4">
+            <h3 class="font-bold text-lg mb-4">Analisis Kompetitor</h3>
+            <div class="space-y-4">
+                <!-- Competitor Item -->
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gray-200 rounded-lg mr-4"></div>
+                    <div class="flex-grow">
+                        <p class="font-bold">Toko A</p>
+                        <p class="text-sm text-gray-500">⭐ 4.9 | 1.2rb terjual</p>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-bold text-green-600">Rp. 92.000</p>
+                        <a href="#" class="text-sm text-blue-600">Lihat Toko</a>
+                    </div>
+                </div>
+                 <!-- Competitor Item -->
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gray-200 rounded-lg mr-4"></div>
+                    <div class="flex-grow">
+                        <p class="font-bold">Toko B</p>
+                        <p class="text-sm text-gray-500">⭐ 4.8 | 876 terjual</p>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-bold text-green-600">Rp. 95.000</p>
+                        <a href="#" class="text-sm text-blue-600">Lihat Toko</a>
+                    </div>
+                </div>
+                 <!-- Competitor Item -->
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gray-200 rounded-lg mr-4"></div>
+                    <div class="flex-grow">
+                        <p class="font-bold">Toko C</p>
+                        <p class="text-sm text-gray-500">⭐ 4.9 | 2.1rb terjual</p>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-bold text-green-600">Rp. 98.000</p>
+                        <a href="#" class="text-sm text-blue-600">Lihat Toko</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
