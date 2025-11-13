@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 pb-20">
+    <div class="max-w-sm mx-auto font-sans bg-white">
+
+        <!-- Header -->
+        <header class="p-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-xl font-bold">Selamat Datang, John!</h1>
+                <p class="text-gray-500">Selasa, 12 November 2023</p>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="relative">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                    <span class="absolute top-0 right-0 block h-2 w-2 rounded-full bg-red-500 ring-2 ring-white"></span>
+                </button>
+                <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+            </div>
+        </header>
+
+        <!-- Performance Card -->
+        <div class="p-4">
+            <div class="bg-blue-600 text-white p-4 rounded-lg">
+                <div class="flex justify-between items-center mb-2">
+                    <h2 class="font-bold">Tingkatkan Performa</h2>
+                    <span class="text-sm font-semibold">75%</span>
+                </div>
+                <div class="w-full bg-blue-400 rounded-full h-2.5">
+                    <div class="bg-white h-2.5 rounded-full" style="width: 75%"></div>
+                </div>
+                <p class="text-xs mt-2 opacity-80">Lengkapi profil tokomu untuk hasil analisis yang lebih akurat.</p>
+            </div>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="p-4 grid grid-cols-4 gap-4 text-center">
+            <a href="#" class="p-2">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mx-auto">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01"></path></svg>
+                </div>
+                <span class="text-xs font-semibold mt-2 block">Deteksi Harga</span>
+            </a>
+            <a href="#" class="p-2">
+                 <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mx-auto">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                </div>
+                <span class="text-xs font-semibold mt-2 block">Analisis Kompetitor</span>
+            </a>
+            <a href="#" class="p-2">
+                 <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mx-auto">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2a4 4 0 014-4h2a4 4 0 014 4v2m-6 4h-2a2 2 0 01-2-2v-2a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2zm-6 0h.01M18 21h.01"></path></svg>
+                </div>
+                <span class="text-xs font-semibold mt-2 block">Riwayat Analisis</span>
+            </a>
+            <a href="#" class="p-2">
+                 <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mx-auto">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                </div>
+                <span class="text-xs font-semibold mt-2 block">Pengaturan</span>
+            </a>
+        </div>
+
+        <!-- Tips Section -->
+        <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">Tips untukmu</h3>
+            <div class="flex space-x-4 overflow-x-auto pb-4">
+                <div class="flex-shrink-0 w-48">
+                    <div class="h-24 bg-gray-200 rounded-lg"></div>
+                    <p class="mt-2 font-semibold text-sm">Cara Riset Kata Kunci</p>
+                </div>
+                <div class="flex-shrink-0 w-48">
+                    <div class="h-24 bg-gray-200 rounded-lg"></div>
+                    <p class="mt-2 font-semibold text-sm">Menentukan Harga Jual</p>
+                </div>
+                <div class="flex-shrink-0 w-48">
+                    <div class="h-24 bg-gray-200 rounded-lg"></div>
+                    <p class="mt-2 font-semibold text-sm">Strategi Marketing di Medsos</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="fixed bottom-0 left-0 right-0 bg-white border-t max-w-sm mx-auto">
+        <div class="flex justify-around">
+            <a href="#" class="p-3 text-center text-blue-600">
+                <svg class="w-6 h-6 mx-auto" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                <span class="text-xs font-semibold">Home</span>
+            </a>
+            <a href="#" class="p-3 text-center text-gray-500">
+                <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01"></path></svg>
+                <span class="text-xs font-semibold">Deteksi</span>
+            </a>
+            <a href="#" class="p-3 text-center text-gray-500">
+                 <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2a4 4 0 014-4h2a4 4 0 014 4v2m-6 4h-2a2 2 0 01-2-2v-2a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2zm-6 0h.01M18 21h.01"></path></svg>
+                <span class="text-xs font-semibold">Riwayat</span>
+            </a>
+            <a href="#" class="p-3 text-center text-gray-500">
+                <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                <span class="text-xs font-semibold">Profil</span>
+            </a>
+        </div>
+    </nav>
+</body>
+</html>
